@@ -109,6 +109,6 @@ public class StocksData {
 		System.out.println("bd2= " + bd2);
 		System.out.println(bd2.subtract(bd1));
 */
-		getStocksData("2409");
+		getStocksData("2002");
 	}
 }
