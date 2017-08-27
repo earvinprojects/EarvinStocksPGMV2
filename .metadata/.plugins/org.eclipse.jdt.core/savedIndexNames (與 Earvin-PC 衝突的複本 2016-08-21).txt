@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+C:\myData\Dropbox\myStocksPGMs\V2.0\EarvinStocksPGMV2\.metadata\.plugins\org.eclipse.jdt.core
+1384982084.index

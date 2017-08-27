@@ -1,0 +1,16 @@
+package tw.idv.earvin.stockpgms.stocks_modules.datatransfer;
+
+import java.io.IOException;
+import java.nio.channels.ReadableByteChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+
+public class ParseFile {
+	public static void main(String[] args) throws IOException {
+		Path path = Paths.get("C:\\myData\\Close20160812.TXT");
+		ReadableByteChannel channel = Files.newByteChannel(path, StandardOpenOption.READ);
+		// ...
+	}
+}

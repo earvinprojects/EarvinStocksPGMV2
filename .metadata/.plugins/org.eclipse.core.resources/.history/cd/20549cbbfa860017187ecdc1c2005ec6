@@ -1,0 +1,80 @@
+package tw.idv.earvin.stockpgms.stocks_modules.indexes;
+
+import java.math.BigDecimal;
+
+public class StocksData {
+	private long tradeDate;
+	private String stockNo;
+	private double startPrice;
+	private double highPrice;
+	private double lowPrice;
+	private double endPrice;
+	private double volume;
+	
+	public long getTradeDate() {
+		return tradeDate;
+	}
+	public void setTradeDate(long v) {
+		tradeDate = v;
+	}
+	public String getStockNo() {
+		return stockNo;
+	}
+	public void setStockNo(String v) {
+		stockNo = v;
+	}
+	public double getStartPrice() {
+		return startPrice;
+	}
+	public void setStartPrice(double v) {
+		startPrice = v;
+	}
+	public double getHighPrice() {
+		return highPrice;
+	}
+	public void setHighPrice(double v) {
+		highPrice = v;
+	}
+	public double getLowPrice() {
+		return lowPrice;
+	}
+	public void setLowPrice(double v) {
+		lowPrice = v;
+	}
+	public double getEndPrice() {
+		return endPrice;
+	}
+	public void setEndPrice(double v) {
+		endPrice = v;
+	}
+	public double getVolume() {
+		return volume;
+	}
+	public void setVolume(double v) {
+		volume = v;
+	}
+	
+	public StockData[] getStocksData(String stockNo) {
+		
+		return sd;
+	}
+	public static void main(String[] args) {
+		System.out.println("==== double variables =====");
+		double d1 = 0.3;
+		double d2 = 0.2;
+		System.out.println("d1= " + d1);
+		System.out.println("d2= " + d2);
+		System.out.println(d2 - d1);
+		
+		System.out.println("==== BigDecimal variables(use double to new) =====");
+		BigDecimal bd0 = new BigDecimal(d1);
+		System.out.println("bd0= " + bd0);
+		
+		System.out.println("==== BigDecimal variables(use String to new) =====");
+		BigDecimal bd1 = new BigDecimal("0.3");
+		BigDecimal bd2 = new BigDecimal("0.2");
+		System.out.println("bd1= " + bd1);
+		System.out.println("bd2= " + bd2);
+		System.out.println(bd2.subtract(bd1));
+	}
+}
