@@ -1,20 +1,9 @@
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-
 /bin
-/.classpath
-/.project
-/.settings
-/target
+.metadata
+stocks-modules/.classpath
+stocks-modules/.project
+stocks-modules/.settings
+stocks-modules/target
 
 # Compiled class file
 *.class
